@@ -4,17 +4,46 @@ padding: 0;
 
 /* apertura css para index */
 
-.banner{width: 100%;
-        height: 700px;
-        position: relative;
-        background-color: #aac4f4;
+.banner{position: relative;
+    width: 100%;
+    height: 800px;
+    
+    
+        
+}
+
+.ondas{position: absolute;
+    z-index: -5;
+    left: 0;
+    
 
 }
 
-.logoLiber{position: relative;
-            left: 0;
+.logo{position: absolute;
+     left: 120px;
+     top: 27px;  
+                 
 }
 
+
+.aroLogo{position: absolute;
+    left: 100px;
+    top: 10px;
+}
+
+.socialNavCont{position:absolute; 
+               right: 150px;
+               top: 50px;
+
+}
+.socialNav{display: flex;
+           list-style: none;
+                    
+}
+
+.sicialIcon{margin-left: 20px;
+
+}
 
 /* cierre de CSS para index */
 

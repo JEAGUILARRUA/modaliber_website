@@ -77,6 +77,8 @@ button{background-color: #aac4f4;
             margin-right:70px;
             margin-top:-240px;
             position: relative;
+            margin-bottom: 0;
+            padding-bottom: 0;
 
 }
 
@@ -95,6 +97,22 @@ button{background-color: #aac4f4;
            margin-left: 100px;
 
 }
+/*-------------------------------------------------------------- css del main en index */
+.freeSend{ background-color: black;
+    color: white;
+    width: 60%;
+    height: 50px;
+    float: right;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+    
+    
+    
+
+}
+
 
 /* cierre de CSS para index */
 

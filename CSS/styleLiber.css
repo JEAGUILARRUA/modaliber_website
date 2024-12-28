@@ -135,7 +135,7 @@ main{margin: 0;
     
 }
 
-.limenuPro{width: 250px;
+.limenuPro{width: 220px;
            height: 40px;
            background-color: #e7ddca;
            margin-top: 20px;
@@ -144,10 +144,12 @@ main{margin: 0;
            font-family: sans-serif;
            font-size: 20px;
            border-radius: 5px;
-           font-weight:bold;          
+           font-weight:bold;
+           cursor: pointer;          
 }
 
-.limenuPro:hover{background-color: #aac4f4;
+.limenuPro:hover{
+    background-color:#aac4f4;
 }
 
 .menuPro{margin-left: 50px;
@@ -166,6 +168,7 @@ main{margin: 0;
           font-size: 25px;
           text-align: center;
           padding: 10px;
+          font-weight: bold;
 
 }
 
@@ -178,7 +181,11 @@ main{margin: 0;
 }
 
 .damaMain{margin-left: -100px;
-          margin-top: 50px;
+          margin-top: 40px;
+
+}
+
+.menMain{margin-top: 50px;
 
 }
 
@@ -193,8 +200,47 @@ main{margin: 0;
 
 }
 
-.promoredo{margin-top: 20px;
+.promoredo{margin-top:20px;
+           margin-left:-20px;
 
+}
+
+.promoredo:hover{
+    transform:scale(1.1)
+}
+
+.feel{font-family:cursive;
+    font-size: 32px;
+    color: #4e78c7;
+    margin-left: -15px;
+    
+
+}
+
+.menu2main{margin-top:400px;
+
+}
+
+.menu2{ list-style: none; 
+       
+
+}
+
+.limenu2{width: 220px;
+    height: 40px;
+    background-color: #e7ddca;
+    margin-top: 20px;
+    padding-top: 8px;
+    margin-left: -30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight:bold;  
+}
+
+.limenu2:hover{
+    background-color: #aac4f4;
 }
 
 

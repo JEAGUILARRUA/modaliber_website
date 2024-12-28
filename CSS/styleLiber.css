@@ -131,16 +131,31 @@ main{margin: 0;
 
 .limenuPro{width: 250px;
            height: 40px;
-           background-color: #aac4f4;
+           background-color: #e7ddca;
            margin-top: 20px;
-           padding-top: 5px;
+           padding-top: 8px;
            text-align: center;
            font-family: sans-serif;
            font-size: 20px;
            border-radius: 5px;
+           font-weight:bold;          
 }
 
-.menuPro{margin-left: 50px;}
+.limenuPro:hover{
+    transform: scale(1,1.2);
+    background-color: #aac4f4;
+}
+
+.menuPro{margin-left: 50px;
+        list-style: none;              
+}
+
+.aMenuPro{text-decoration: none;
+          color: #000000;
+}
+
+
+
 
 
 

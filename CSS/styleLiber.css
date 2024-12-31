@@ -231,12 +231,10 @@ main{margin: 0;
 /* APERTURA CS PARA FOOTER */
 
 footer{position: relative;
-      z-index: -2;
+    
 }
 
 .ondasfoot{margin-top: -90px;
-          
-
 }
 
 .text1foot{position: relative ;
@@ -251,19 +249,21 @@ footer h2{font-family: sans-serif;
           font-size: 40px;
 }
 
-.resenasycommit{width:350px;
+.reseñasycommit{width:350px;
     height: 40px;
     background-color: #e7ddca;
     border-radius:10px;
     padding: 10px;
     margin-left: 50px;
+    
 }
 
-.resenas{font-family: sans-serif;
+.reseñas{font-family: sans-serif;
         font-size: 20px;
         text-decoration: none;
         color: #000000;
         font-weight: bold;
+        
         
 }
 

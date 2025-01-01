@@ -136,7 +136,8 @@ main{margin: 0;
            font-size: 20px;
            border-radius: 5px;
            font-weight:bold;
-           cursor: pointer;          
+           cursor: pointer;
+           border: #000000 solid;          
 }
 
 .limenuPro:hover{
@@ -217,6 +218,7 @@ main{margin: 0;
     font-size: 20px;
     border-radius: 5px;
     font-weight:bold;  
+    border: #000000 solid; 
 }
 
 .limenu2:hover{
@@ -230,17 +232,19 @@ main{margin: 0;
 
 /* APERTURA CS PARA FOOTER */
 
-footer{position: relative;
+footer{position: absolute;
+       margin-top: 250px;
     
 }
 
-.ondasfoot{margin-top: -90px;
+.ondasfoot{margin-top:0px;
+        
 }
 
 .text1foot{position: relative ;
           display: flex;
           z-index: 5;
-          margin-top: -600px;
+          margin-top:-500px;
           margin-left: 50px;
           width: 80%;   
 }
@@ -269,10 +273,11 @@ footer h2{font-family: sans-serif;
     transform:scale(1.1)
 }
 
-.footInfo{margin-top: 50px;
+.footInfo{margin-top: 100px;
           margin-left: 50px;
           font-family: sans-serif;
           font-size: 25px;
+          position: relative;
 
 }
 
@@ -284,7 +289,8 @@ footer h2{font-family: sans-serif;
 }
 
 .footcurve{position: relative;
-           margin-top: -100px;
+          margin-top: -100px;
+           
 
 }
 
@@ -321,6 +327,85 @@ footer h2{font-family: sans-serif;
 }
 
 /* CIERRE DE CSS PARA EL FOOTER */
+
+/* APERTURA CSS DE NUEVA COLECCION */
+ .nuevaColeccion{font-family: sans-serif;
+              font-size: 50px;
+              position: relative;
+              text-align: center;
+              margin-top: 50px;
+              width: 100%;
+              height: 120px;
+              background-color: #c6efef;
+              padding-top: 35px;
+              
+
+ }
+
+ .fotoNewColeccion{margin-left:120px;
+                   position: relative;
+                   z-index: -1;
+                   margin-top: -50px;
+ }
+
+ .contNewColeccion{margin-top: -600px;
+
+ }
+
+ .organic{font-size: 30px;
+    text-align: center;
+    color: rgb(251, 251, 251);
+    font-size: 50px;
+    font-family:cursive;
+       
+
+ }
+
+ .nameColeccion{font-size: 50px;
+                width: 550px;
+                height: 150px;
+                background-color:#e7ddca;
+                margin: auto;
+                padding: 20px;
+                text-align: center;
+                border-radius: 20px;
+                              
+ }
+
+ .nameColeccion:hover{  transform: scale(1.0);
+    box-shadow: 0px 15px 37px #faf8f8;  
+
+ }
+
+ .p1{color: rgb(113, 150, 112);
+
+ }
+
+ .botonVerColeccion{width: 200px;
+                    height:40px;
+                    font-family: sans-serif;
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-decoration: none;
+                    padding:8px;
+                    position: relative;
+                    margin-top: 20px;
+                    margin-left: 43%;
+                    border-radius: 10px; 
+                    background-color: #c6efef;                           
+ }
+
+ .botonVerColeccion:hover{transform:scale(1.1)
+
+ }
+
+ button, a {text-decoration: none;
+          margin: auto;
+          color: #000000;
+}
+
+
+/* CIERRE CSS DE NUEVA COLECCION */
 
 
 

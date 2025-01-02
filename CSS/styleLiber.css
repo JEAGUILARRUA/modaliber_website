@@ -42,39 +42,36 @@ header{
 .socialIcon{margin-left: 20px;
 }
 
-i,.icon:hover{
+.icon:hover{
 transform: translateY(-5px);
 }
 
+.Search{width: 350px;
+        height: 51px;
+        border-radius: 10px;
+        border: 0;
+        font-family:sans-serif;
+        padding-left: 10px;
+        font-size: 20px;
+        position: relative;
+        z-index: 100;
+        
 
-
-.buscador{position: absolute;
-          width: 335px;
-          height: 50px;
-          right:320px;
-          top: 150px;
 }
 
-.liberSearch{padding: 15px;
-             padding-right: 35px;
-             border-radius: 5px 0px 0px 5px;
-             border: 0;
-             outline: none; 
-             font-family: sans-serif; 
-             font-size: larger;
-             position: relative;
-             height: 51px;
+.buscador{ position: absolute;
+           margin-left: 830px;
+           margin-top: -220px;
+                
 }
 
-button{background-color: #aac4f4;
-      border: 0;
-      width: 51px;
-      height: 51px;
-      position: absolute;
-      border-radius: 0px 5px 5px 0px;
-      padding-bottom: 35px;
-      padding-right: 10px;
-      padding-left: 5px;     
+#lupaIcon{margin-left: -50px;
+
+}
+
+i{position: relative;
+    z-index: 100;
+
 }
 
 .fotoBanner{float:right;
@@ -83,6 +80,7 @@ button{background-color: #aac4f4;
             position: relative;
             margin-bottom: 0;
             padding-bottom: 0;
+            
 }
 
 .Slogan{font-family: sans-serif;
@@ -106,6 +104,7 @@ main{margin: 0;
 }
 
 .Boxmain{display: flex;
+
 }
 
 .freeSend{ background-color: black;
@@ -148,12 +147,13 @@ main{margin: 0;
         list-style: none;              
 }
 
+
 .aMenuPro{text-decoration: none;
           color: #000000;
 }
 
 .linkDiscover{width: 200px;
-          height: 130px;
+          height: 140px;
           margin-top: 50px;
           margin-left: 60px;
           font-family: sans-serif;
@@ -161,6 +161,9 @@ main{margin: 0;
           text-align: center;
           padding: 10px;
           font-weight: bold;
+          z-index: 100;
+          background-color: #ffffff;
+          position: relative;         
 }
 
 .discover{text-decoration: none;
@@ -170,6 +173,10 @@ main{margin: 0;
 .discover:hover{
     color:#4e78c7;
 }
+
+i:hover{
+    transform:translateY(-7px);
+    }
 
 .damaMain{margin-left: -100px;
           margin-top: 40px;

@@ -100,12 +100,13 @@ i{position: relative;
 main{margin: 0;
     padding: 0;
     position: relative;
-    top: -80px;
+    top:-80px;
 }
 
 .Boxmain{display: flex;
 
 }
+
 
 .freeSend{ background-color: black;
     color: white;
@@ -144,7 +145,8 @@ main{margin: 0;
 }
 
 .menuPro{margin-left: 50px;
-        list-style: none;              
+        list-style: none; 
+        position: relative;             
 }
 
 
@@ -179,7 +181,7 @@ i:hover{
     }
 
 .damaMain{margin-left: -100px;
-          margin-top: 40px;
+    margin-top: 40px;
 }
 
 .menMain{margin-top: 50px;
@@ -191,6 +193,7 @@ i:hover{
                 font-size: 25px;
                 text-align: center;
                 margin-top: 100px;
+                
 }
 
 .promoredo{margin-top:20px;
@@ -388,10 +391,10 @@ footer h2{font-family: sans-serif;
 
  }
 
- .botonVerColeccion{width: 200px;
-                    height:40px;
+ .botonVerColeccion{width: 250px;
+                    height:45px;
                     font-family: sans-serif;
-                    font-size: 20px;
+                    font-size: 24px;
                     font-weight: bold;
                     text-decoration: none;
                     padding:8px;

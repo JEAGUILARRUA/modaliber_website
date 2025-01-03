@@ -144,7 +144,8 @@ main{margin: 0;
     background-color:#aac4f4;
 }
 
-.menuPro{margin-left: 50px;
+.menuPro{margin-left: 30px;
+        margin-top: 50px;
         list-style: none; 
         position: relative;             
 }
@@ -420,6 +421,74 @@ footer h2{font-family: sans-serif;
 
 
 /* apertura CSS para las paginas de productos */
+
+.namePage{font-family: sans-serif;
+         text-align: right;
+         margin-right: 70px;
+}
+
+.tie001{width: 290px;
+    height: 370px;
+    margin-left: 35px;
+    margin-top:30px;
+}
+/* contenedor de producto */
+.pro0001{
+ width: 370px;
+ height: 600px;
+ background-color: rgb(255, 255, 255);
+ border-radius: 100px;
+ border: 7px solid rgb(201, 199, 199);
+ margin-left: 40px; 
+ margin-top: 30px; 
+ margin-bottom: 50px;     
+}
+
+/* contenedor del carrito para agregar */
+.boxcar{width: 60px;
+    height: 60px;
+    background-color: rgb(209, 204, 204);
+    border-radius: 30px;
+    float: right;
+    margin-top: -70px;
+    margin-right: 40px;
+}
+/* margen para el carrito */
+i{margin-top:30px;
+margin-left: 10px;
+}
+/* boton mas detalles */
+
+.boton{ display: block;
+ width: 170px;
+ height: 30px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ text-align: center;
+ font-weight: 700;
+ background-color: #aac4f4;
+ border-radius: 30px;
+ margin: 40px 50px ; 
+ text-decoration: none;
+ padding-top: 5px;
+ color: #ffffff;
+}
+.boton:hover{transform: scale(1.1);
+ background-color:  #7adeff;           
+}
+
+i:hover{transform: scale(1.2);
+}
+
+h3{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.textproducto{margin-left: 40px;
+             margin-top: -20px;
+}
+
+.menuypro{display: flex;
+
+}
 
 
 /* cierre de CSS para paginas de productos */

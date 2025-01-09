@@ -625,7 +625,7 @@ background-color: #aac4f4;
 
 }
 
-.trmov{ font-size: 30px;
+.trmov{ font-size: 45px;
     font-family: sans-serif;
     text-align: center;
     margin-top: 50px;
@@ -662,3 +662,51 @@ background-color: #aac4f4;
 .linkreco:hover{background-color: #2abbfa;
 
 }
+
+/* APERTURA CSS PARA RELAX PAGE */
+.moob{width: 1100px;
+    height: 1100px;
+    background-color: #aac4f4;
+    position: relative;
+    border-radius: 50px;
+    margin-left: 80px;
+
+
+}
+
+.line{display: flex;
+    margin-left: 40px;
+
+}
+
+.moobTittle{font-size: 60px;
+            text-align: center;
+            color: white;
+            font-family: cursive;
+            position: relative;
+            margin-top: 50px;
+
+}
+
+.moobTittle{margin-left: 50px;
+            margin-top: 100px;
+
+}
+
+.imgline1{margin-left: 50px;
+    margin-top: 50px;
+
+}
+
+.imgline2{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.imgline3{
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+/* CIERRE CSS PARA RELAX PAGE */

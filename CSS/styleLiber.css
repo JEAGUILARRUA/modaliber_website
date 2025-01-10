@@ -730,6 +730,8 @@ background-color: #aac4f4;
 
 /* CIERRE CSS PARA LOOK PAGE */
 
+/*APERTURA CSS PARA NUEVA COLECCION */
+
 
 .tnewc{color: #809a8d;
     font-family: cursive;
@@ -737,5 +739,15 @@ background-color: #aac4f4;
 
 .new001{margin-left: 70px;
       border-radius: 20px;
+
+}
+/* CIERRE CSS NUEVA COLECCION */
+
+/* APERTURA CSS PARA RESEÑAS */
+
+.res001{margin-left: 55px;
+    border-radius: 20px;
+    margin-top: 40PX;
+
 
 }

@@ -695,12 +695,15 @@ background-color: #aac4f4;
 
 .imgline1{margin-left: 50px;
     margin-top: 50px;
+    border-radius: 20px;
+    
 
 }
 
 .imgline2{
     margin-left: 50px;
     margin-top: 50px;
+    border-radius: 20px;
 }
 
 .imgline3{
@@ -710,3 +713,22 @@ background-color: #aac4f4;
 }
 
 /* CIERRE CSS PARA RELAX PAGE */
+
+/* APERTURA CSS PARA LOOK PAGE */
+
+.imgline1:hover{transform: scale(1.0);
+    box-shadow: 0px 15px 37px #faf8f8; 
+}
+
+.imgline3:hover{transform: scale(1.0);
+    box-shadow: 0px 15px 37px #faf8f8; 
+}
+
+.imgline2:hover{transform: scale(1.0);
+    box-shadow: 0px 15px 37px #faf8f8; 
+}
+
+
+
+
+/* CIERRE CSS PARA LOOK PAGE */

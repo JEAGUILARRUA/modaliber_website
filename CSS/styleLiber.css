@@ -751,3 +751,14 @@ background-color: #aac4f4;
 
 
 }
+
+/* CIERRE CSS PARTA RESEÑAS */
+
+
+
+/* APERTURA CSS PARA TALLAS */
+.talla001{width: 300px;
+    height: 600px;
+    margin-left:10px;
+    margin-top:30px;
+}

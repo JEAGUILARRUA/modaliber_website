@@ -859,3 +859,126 @@ select, input{width: 250px;
 .add:hover{background-color: #aac4f4;
 
 }
+/* CIERRE CSS PARA DETALLES DE PRODUCTOS */
+
+/* APERTURA CSS PARA CARRITO */
+
+.formYpay{display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+
+.inputCar{width: 450px;
+    height: 40px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 1px solid;
+
+
+}
+
+textarea{width: 450px;
+    height:100px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 1px solid;
+
+}
+
+.pay1{width:400px;
+      height: 70px;
+      background-color: #ffffff;
+      border: 1px #000000 solid;
+      border-radius: 20px;
+      padding-top: 15px;
+      padding-left: 50px;
+      display: flex;
+      margin-bottom: 10px;
+      margin-top: 10px;
+
+}
+
+details{position: relative;
+    margin-left: 30px;
+    margin-top: 15px;
+    
+
+}
+
+.texSummary{background-color: white;
+          text-align: center;
+          font-size: 20px;
+          border: 1px solid;
+
+}
+
+
+.pay2{width:400px;
+    min-height: 80px;
+    background-color: #ffffff;
+    border: 1px #000000 solid;
+    border-radius: 20px;
+    padding: 15px;
+    
+}
+
+.InputFoto{width: 350px;
+
+}
+
+.pay{margin-left: 50px;
+
+}
+
+.tittlePay{font-family: sans-serif;
+    font-size: 24px;
+    width: 400px;
+    height: 50px;
+    background-color:#aac4f4;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.tittlePay2{font-family: sans-serif;
+    font-size: 24px;
+    width: 450px;
+    height: 50px;
+    background-color:#aac4f4;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.tittlePay3{font-family: sans-serif;
+    font-size: 24px;
+    width: 450px;
+    height: 50px;
+    background-color:#aac4f4;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.TBD{font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.resume{margin-left: 50px;
+
+}
+
+
+/* CIERRE CSS PARA CARRITO */

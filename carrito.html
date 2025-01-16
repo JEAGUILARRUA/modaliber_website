@@ -34,6 +34,7 @@
      <hr>
 
      <section class="formYpay">
+      <form action="#" method="get">
       <div class="formSend">
         <div class="tittlePay2"><strong>DATOS DEL DESTINATARIO</strong></div>
           <input class="inputCar" type="text" name="nombres" id="nombres" placeholder="Nombres..." 
@@ -52,6 +53,11 @@
           minlength="" maxlength="30" required> <br>
           <textarea name="Comentarios" id="Comentarios" 
           placeholder="Comentarios..."></textarea>
+          <div class="footBoton">
+            <input class="BotonSend" type="submit" value="Enviar" id="Enviar" name="Enviar"> 
+            <input class="BotonRest" type="reset" value="Restablecer" id="Restablecer" name="Restablecer"> 
+           </div>
+          </form>
       </div>
 
       <div class="pay">
@@ -105,13 +111,32 @@
                 <br>
                 <input class="InputFoto" type="file" id="foto" name="foto" accept=".jpg,.png" required>
               </div>
-
-
       </div>
 
       <div class="resume">
         <div class="tittlePay3"><strong>RESUMEN DEL PEDIDO</strong></div>
+        <div class="resumeHead">
+          <img src="Imagenes/img213.png" alt="" width="120">
+              <p class="resumetext">Bombacho Cotton <br>
+                Ref. HRP017 <br>
+                Precio: $ 70,000</p>
+        </div>
+        <p class="resumedatos">
+          Nombre: <br>
+          Documento: <br>
+          Color: <br>
+          Talla: <br>
+          Largo: <br>
+          Ciudad: <br>
+          Dirección: <br>
+          Contactos: <br>
+          Correo Electrónico: <br>
+          Fecha estima despacho: <br>
+          Fecha estima de entrega: <br>
+        </p>
+        <div class="totalpay">TOTAL A PAGAR:________________</div>
       </div>
+      
      </section>
 
     

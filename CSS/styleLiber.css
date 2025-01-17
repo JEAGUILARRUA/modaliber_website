@@ -981,6 +981,11 @@ details{position: relative;
 .BotonRest:hover{transform: translate(1px, 1px) scale(1);
 }
 
+summary{color: #4e78c7;
+        font-size: 20px;
+
+}
+
 
 
 

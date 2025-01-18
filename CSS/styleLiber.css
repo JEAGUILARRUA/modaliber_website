@@ -852,12 +852,16 @@ textarea{width: 450px;
 details{position: relative;
     margin-left: 30px;
     margin-top: 15px;
+    
+   
 }
 
 .texSummary{background-color: white;
           text-align: center;
           font-size: 20px;
-          border: 1px solid;
+          font-family: sans-serif;
+          width: 280px;
+          
 }
 
 
@@ -866,7 +870,8 @@ details{position: relative;
     background-color: #ffffff;
     border: 1px #000000 solid;
     border-radius: 20px;
-    padding: 15px;   
+    padding: 15px; 
+    margin-top: 30px;  
 }
 
 .InputFoto{width: 350px;
@@ -983,14 +988,49 @@ details{position: relative;
 
 summary{color: #4e78c7;
         font-size: 20px;
-
 }
 
 /* CIERRE CSS PARA CARRITO */
 
 /* APERTURA CSS PARA CONDICIONES  */
-.condicion1{width:800px;
-    height:150px;
+.condicion1{width:1280px;
+    height:500px;
+    background-color: #ffffff;
+    border: 1px #000000 solid;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-left: 50px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.condicion2{width:1280px;
+    height:190px;
+    background-color: #ffffff;
+    border: 1px #000000 solid;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-left: 50px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.condicion3{width:1280px;
+    height:250px;
+    background-color: #ffffff;
+    border: 1px #000000 solid;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-left: 50px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.condicion4{width:1280px;
+    height:850px;
     background-color: #ffffff;
     border: 1px #000000 solid;
     border-radius: 20px;
@@ -1002,17 +1042,43 @@ summary{color: #4e78c7;
 }
 
 .sectionCond{display: flex;
-    margin-left: 310px;
+    margin-left:120px;
     margin-top: 50px;
 
 }
 
 .tittleCond{color: #4e78c7;
-    font-size: 30px;
+    font-size:30px;
     font-family: sans-serif;
     border-width: 5px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.puntoEntrega{text-align: center;
 
 }
+
+.texCondi{background-color: white;
+    text-align: center;
+    font-size: 21px;
+    border: 1px solid;
+    border: none;
+    width: 1000px;
+    height: 60px;
+    margin-top: 30px;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.mailliber{color: #4e78c7;
+
+}
+
+.cond{margin-bottom: 50px;
+
+}
+
 
 
 

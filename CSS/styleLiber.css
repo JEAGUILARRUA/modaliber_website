@@ -236,6 +236,10 @@ i:hover{
     background-color: #aac4f4;
 }
 
+.botonVerColeccion{text-align: center;
+
+}
+
 
 /* cierre de CSS para MAIN DEL index */
 
@@ -748,6 +752,10 @@ background-color: #aac4f4;
 
 /* APERTUR CSS PARA DETALLES DE PRODUCTOS */
 
+.menuypro{margin-top: -370px;
+
+}
+
 .contdetallesinfo{
     display: flex;
     margin-left: 300px;
@@ -801,21 +809,41 @@ select, input{width: 250px;
     border: 1px solid;
 }
 
-.add{width: 500px;
+.add{width:500px;
      height:60px;
      background-color:#e7ddca;
      border-radius: 20px;
+     display: flex;
+     padding-left:40px ;
+     padding-top: 20px;
+       
 }
 
 .add:hover{background-color: #aac4f4;
 }
+
+.addtotal{width: 250px;
+    height: 30px;
+    font-size: 15px;
+    
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top:5px;
+    border: 1px solid;
+    background-color: white;
+    margin-left: 20px;
+
+}
+
+.imgcaradd{position: relative;}
+
 /* CIERRE CSS PARA DETALLES DE PRODUCTOS */
 
 /* APERTURA CSS PARA CARRITO */
 
 .formYpay{display: flex;
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: -330px;
 
 }
 
@@ -1043,7 +1071,7 @@ summary{color: #4e78c7;
 
 .sectionCond{display: flex;
     margin-left:120px;
-    margin-top: 50px;
+    margin-top:-330px;
 
 }
 

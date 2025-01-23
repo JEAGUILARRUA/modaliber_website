@@ -711,6 +711,7 @@ background-color: #aac4f4;
 
 .tnewc{color: #809a8d;
     font-family: cursive;
+    font-size: 30px;
 }
 
 .new001{margin-left: 70px;
@@ -718,7 +719,8 @@ background-color: #aac4f4;
 
 }
 
-
+.namePage{font-size: 30px;
+}
 
 /* CIERRE CSS NUEVA COLECCION */
 

@@ -489,7 +489,7 @@ h3{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 
 /* APERTURA CSS PARA LIBER.HTML */
 
-.menuFlot{margin-top: 100PX;
+.menuFlot{margin-top: -340px;
          margin-left: 70px;
          display: flex;
 }
